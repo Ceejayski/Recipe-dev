@@ -19,7 +19,7 @@ function MealDetails({ data, tags }) {
             <ListGroup.Item>
               <div className="details d-flex justify-content-between">
                 <p className="mb-0 list-title">Main Ingredient</p>
-                <p className="mb-0">{data.strCategory}</p>
+                <p className="mb-0" style={{ maxWidth: '60%' }}>{data.strCategory}</p>
               </div>
             </ListGroup.Item>
             )}
@@ -27,7 +27,7 @@ function MealDetails({ data, tags }) {
             <ListGroup.Item>
               <div className="details d-flex justify-content-between">
                 <p className="mb-0 list-title">Tags</p>
-                <p className="mb-0">{data.strTags}</p>
+                <p className="mb-0" style={{ maxWidth: '70%' }}>{data.strTags}</p>
               </div>
             </ListGroup.Item>
             )}
@@ -35,7 +35,7 @@ function MealDetails({ data, tags }) {
             <ListGroup.Item>
               <div className="details d-flex justify-content-between">
                 <p className="mb-0 list-title">Localization</p>
-                <p className="mb-0">{data.strArea}</p>
+                <p className="mb-0" style={{ maxWidth: '70%' }}>{data.strArea}</p>
               </div>
             </ListGroup.Item>
             )}

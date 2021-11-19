@@ -41,7 +41,7 @@ function SearchBar() {
   const [query, setQuery] = useState('');
   const message = () => {
     if (query.length) {
-      return `Can't find "${query}" in Recipe`;
+      return `Can't find "${query}" in Recipe, sorry 🥺`;
     }
     return 'Please input Recipe here';
   };

@@ -29,7 +29,9 @@ function RecipePage({
   return (
     <Container style={{ minHeight: '100vh' }}>
       {error === '' && Object.keys(data).length > 0 && (
+      <>
         <RecipeDetails data={data} onViewed={addToViewed} ingredients={ingredients} />
+      </>
       )}
     </Container>
   );
@@ -50,7 +52,7 @@ const mapStateToProps = (state) => {
     data: details,
     error: singleMeal.error,
     ingredients: getIngredient(details),
-    viewedGames: state.view.viewedRecipes,
+    viewed: state.view.viewedRecipes,
   });
 };
 
