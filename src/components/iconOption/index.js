@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { components } from 'react-select';
 
 const { Option } = components;
@@ -10,20 +11,20 @@ const IconOption = (props) => {
   // eslint-disable-next-line react/jsx-props-no-spreading
     <Option {... props}>
 
-      <div className="d-flex align-items-center">
-        <div>
-          <img
-            src={`${icon}/preview`}
-            alt={value}
-            style={{ width: 50 }}
-          />
+      <Link to={`/recipe/${value}`}>
+        <div className="d-flex align-items-center">
+          <div>
+            <img
+              src={`${icon}/preview`}
+              alt={value}
+              style={{ width: 50 }}
+            />
+          </div>
+          <div className="ms-2">
+            {label}
+          </div>
         </div>
-        <div className="ms-2
-      "
-        >
-          {label}
-        </div>
-      </div>
+      </Link>
 
     </Option>
 

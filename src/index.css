@@ -10,6 +10,30 @@ code {
     monospace;
 }
 
-.brand {
-  font-family: "Merienda", cursive !important;
+.brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pacifico", cursive;
+}
+
+.lead {
+  font-family: "Merienda", cursive;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.transparent {
+  background: rgb(248, 249, 250) !important;
+  background: linear-gradient(
+    185deg,
+    rgba(248, 249, 250, 0.3) 0%,
+    rgba(248, 249, 250, 0.15) 27%
+  ) !important;
 }

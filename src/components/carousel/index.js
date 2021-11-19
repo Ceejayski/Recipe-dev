@@ -27,7 +27,7 @@ export default function Carousel() {
           <h1>
             RecipeDev
           </h1>
-          <p>by a Cook turned Dev</p>
+          <p>by a Dev turned Cook</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -54,7 +54,7 @@ export default function Carousel() {
           <h1>
             Pizza Recipes
           </h1>
-          <p className="text-white">We Leave in a world were pizza gets home before the police</p>
+          <p className="text-white">We Leave in a world were pizza gets home before the police do</p>
         </div>
       </SwiperSlide>
     </Swiper>

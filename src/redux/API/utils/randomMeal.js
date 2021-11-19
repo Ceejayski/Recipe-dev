@@ -5,8 +5,7 @@ const existingMealItem = ({
 
 const handleToAddMeal = ({ prevMealItems, nextMealItem }) => {
   const MealItemExists = existingMealItem({ prevMealItems, nextMealItem });
-
-  if (MealItemExists || prevMealItems.size >= 10) {
+  if (MealItemExists || prevMealItems.length >= 10) {
     return [
       ...prevMealItems,
     ];

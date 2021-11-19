@@ -3,6 +3,11 @@ const fetchRecipesSuccess = (products) => ({
   products,
 });
 
+const fetchRandomSuccess = (meals) => ({
+  type: 'FETCH_RANDOM_SUCCESS',
+  meals,
+});
+
 const fetchRecipesError = (error) => ({
   type: 'FETCH_PRODUCTS_ERROR',
   error,
@@ -36,5 +41,6 @@ export {
   fetchSingleMeal,
   resetSelected,
   fetchCategories,
+  fetchRandomSuccess,
   fetchSearchResultSuccess,
 };

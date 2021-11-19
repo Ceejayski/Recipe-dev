@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Container, Nav, Navbar, NavDropdown,
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
 import SearchBar from '../searchBar';
 
 export default function NavBar() {
+  const [scroll, setScroll] = useState(false);
+  const changeBackground = () => {
+    if (window.scrollY > 100) {
+      setScroll(true);
+    } else {
+      setScroll(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground);
   return (
     <header>
-      <Navbar bg="light" expand="md" fixed="top">
+      <Navbar expand="md" fixed="top" className={!scroll ? 'transparent' : 'bg-light'}>
         <Container>
-          <Navbar.Brand href="#home" className="brand">
+
+          <Link to="/" className="brand navbar-brand">
             <img
               src={Logo}
               alt="logo"
@@ -19,22 +31,21 @@ export default function NavBar() {
               className="d-inline-block align-top"
             />
             RecipeDev
-          </Navbar.Brand>
+
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <div className="mx-auto w-50">
               <SearchBar />
             </div>
             <Nav>
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+              <Link to="/" className="nav-link">Home</Link>
             </Nav>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown title="Recipe Categories" id="basic-nav-dropdown">
+              <Link to="/diets" className="dropdown-item">Diets</Link>
+              <Link to="/meals" className="dropdown-item">Meal Types</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <Link to="/category" className="dropdown-item">Other Categories</Link>
             </NavDropdown>
           </Navbar.Collapse>
         </Container>

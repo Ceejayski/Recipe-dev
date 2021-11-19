@@ -2,17 +2,17 @@ import handleToAddMeal from '../utils/randomMeal';
 
 const initialState = {
   pending: true,
-  products: [],
+  meals: [],
   error: '',
 };
 
 const randomMealReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'SEARCH_RESULTS_SUCCESS':
+    case 'FETCH_RANDOM_SUCCESS':
       return {
         ...state,
         pending: false,
-        products: handleToAddMeal({ prevMealItems: state.products, nextMealItem: action.products }),
+        meals: handleToAddMeal({ prevMealItems: state.meals, nextMealItem: action.meals }),
       };
     case 'FETCH_PRODUCTS_ERROR':
       return {
