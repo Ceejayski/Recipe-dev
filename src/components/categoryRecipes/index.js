@@ -8,7 +8,7 @@ import { UPDATE_CATEGORY } from '../../redux/API/Actions';
 import MealDetails from '../MealDetails';
 
 function CategoryRecipe({
-  options, list, dispatch, filter, current,
+  options, list, dispatch, filter, current, loading,
 }) {
   const handleFilterChange = (e) => {
     const category = e.target.value;
@@ -36,14 +36,17 @@ function CategoryRecipe({
         </div>
         <div className="items mt-3" />
       </div>
-
-      <div className="mt-4 row">
-        {list.products.map((product) => (
-          <div className="col-md-3 mb-4" key={product.idMeal}>
-            <MealDetails data={product} tags={false} />
+      {!loading && (
+        <>
+          <div className="mt-4 row">
+            {list.products.map((product) => (
+              <div className="col-md-3 mb-4" key={product.idMeal}>
+                <MealDetails data={product} tags={false} />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </>
+      )}
     </Container>
   );
 }
@@ -54,6 +57,7 @@ CategoryRecipe.propTypes = {
   list: PropTypes.shape().isRequired,
   dispatch: PropTypes.func.isRequired,
   filter: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 const mapStateToProps = (state) => {
@@ -63,6 +67,7 @@ const mapStateToProps = (state) => {
 
       list: allMeals,
       current: allMeals.category,
+      loading: allMeals.pending,
     }
   );
 };

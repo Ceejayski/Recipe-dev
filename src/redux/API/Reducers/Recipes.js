@@ -1,5 +1,5 @@
 const initialState = {
-  pending: false,
+  pending: true,
   products: [],
   error: '',
   category: '',
@@ -23,6 +23,7 @@ const RecipesReducer = (state = initialState, action) => {
       return {
         ...state,
         category: action.category,
+        pending: true,
       };
     default:
       return state;

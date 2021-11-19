@@ -28,7 +28,7 @@ function RecipePage({
 
   return (
     <Container style={{ minHeight: '100vh' }}>
-      {error === '' && Object.keys(data).length > 0 && (
+      {error === '' && Object.keys(data).length > 0 && data.idMeal === id && (
       <>
         <RecipeDetails data={data} onViewed={addToViewed} ingredients={ingredients} />
       </>
