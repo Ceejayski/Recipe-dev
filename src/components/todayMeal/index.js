@@ -7,10 +7,13 @@ import MealDetails from '../MealDetails';
 function TodayMeals(props) {
   const { randomMeal, products } = props;
   useEffect(() => {
-    let i = 0;
-    while (i <= 9) {
-      randomMeal();
-      i += 1;
+    if (randomMeal.length < 5) {
+      let i = 0;
+
+      while (i <= 9) {
+        randomMeal();
+        i += 1;
+      }
     }
   }, []);
   return (

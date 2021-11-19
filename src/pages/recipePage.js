@@ -39,7 +39,7 @@ function RecipePage({
 
 RecipePage.propTypes = {
   addToViewed: PropTypes.func.isRequired,
-  error: PropTypes.string.isRequired,
+  error: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   data: PropTypes.shape().isRequired,
   fetchRecipe: PropTypes.func.isRequired,
   ingredients: PropTypes.arrayOf(String).isRequired,

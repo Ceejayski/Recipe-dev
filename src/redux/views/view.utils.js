@@ -11,8 +11,13 @@ const handleAddtoView = ({
     prevRecipeItems,
     nextRecipeItem,
   });
+  if (RecipeExists) {
+    return [
+      ...prevRecipeItems,
+    ];
+  }
   if (prevRecipeItems.length === 6) {
-    const arr = prevRecipeItems.slice(1, 6);
+    const arr = prevRecipeItems.slice(1, 5);
     return [
       ...arr,
       {
@@ -20,11 +25,7 @@ const handleAddtoView = ({
       },
     ];
   }
-  if (RecipeExists) {
-    return [
-      ...prevRecipeItems,
-    ];
-  }
+
   return [
     ...prevRecipeItems,
     {
