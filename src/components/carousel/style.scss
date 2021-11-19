@@ -15,7 +15,6 @@
 
   /* Center slide text vertically */
   display: -webkit-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
@@ -27,21 +26,21 @@
   -webkit-align-items: center;
   align-items: center;
   position: relative;
-}
 
-.swiper-slide {
   img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+
   .slide-text {
     h1 {
       font-family: "Pacifico", cursive;
       color: #ebc860;
       font-size: 6em;
     }
+
     p {
       margin-left: 50%;
       font-family: "Merienda", cursive !important;

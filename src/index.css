@@ -6,7 +6,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
     monospace;
 }
 
@@ -31,9 +36,10 @@ a {
 
 .transparent {
   background: rgb(248, 249, 250) !important;
-  background: linear-gradient(
-    185deg,
-    rgba(248, 249, 250, 0.3) 0%,
-    rgba(248, 249, 250, 0.15) 27%
-  ) !important;
+  background:
+    linear-gradient(
+      185deg,
+      rgba(248, 249, 250, 0.3) 0%,
+      rgba(248, 249, 250, 0.15) 27%
+    ) !important;
 }
