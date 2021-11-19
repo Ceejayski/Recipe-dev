@@ -2,7 +2,7 @@
 This is a goto Recipe Site in react
  
  ## Live Demo:
-[Recipe-Dev](https://pedantic-yonath-25b25d.netlify.app/recipe/53052)
+[Recipe-Dev](https://pedantic-pasteur-a8bcbb.netlify.app/)
 
 ## Screenshot
 <p float = 'left'>
