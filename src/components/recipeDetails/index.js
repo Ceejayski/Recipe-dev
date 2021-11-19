@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import ReactPlayer from 'react-player/youtube';
 import parse from 'html-react-parser';
 import addRecipeToViewed from '../../redux/views/view.actions';
 
@@ -67,12 +66,7 @@ export default function RecipeDetails({
                 {' '}
                 <u>Procedures</u>
               </h3>
-              {data.strYoutube && (
-                <ReactPlayer
-                  url={data.strYoutube}
-                  style={{ margin: '0 auto 20px' }}
-                />
-              )}
+
               {data.strInstructions !== undefined && (
 
               <p className="lead text-center">
