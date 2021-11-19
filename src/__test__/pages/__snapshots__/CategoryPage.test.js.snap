@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Correctly 1`] = `
+<div>
+  <div
+    className="mt-5 container"
+  >
+    <div
+      className="mt-5 d-flex justify-content-between"
+    >
+      <div
+        className="items mt-3"
+      >
+        <div
+          className="category-filter"
+        >
+          <select
+            className="form-select"
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              value="Pork"
+            >
+              Pork
+            </option>
+            <option
+              value="Chicken"
+            >
+              Chicken
+            </option>
+            <option
+              value="Lamb"
+            >
+              Lamb
+            </option>
+            <option
+              value="Side"
+            >
+              Side
+            </option>
+            <option
+              value="Miscellaneous"
+            >
+              Miscellaneous
+            </option>
+            <option
+              value="Goat"
+            >
+              Goat
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="items mt-3"
+      >
+        <h3>
+          
+        </h3>
+      </div>
+      <div
+        className="items mt-3"
+      />
+    </div>
+    <div
+      className="mt-4 row"
+    />
+  </div>
+</div>
+`;
