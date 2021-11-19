@@ -7,7 +7,7 @@ import MealDetails from '../MealDetails';
 function TodayMeals(props) {
   const { randomMeal, products } = props;
   useEffect(() => {
-    if (randomMeal.length < 5) {
+    if (products.length < 5) {
       let i = 0;
 
       while (i <= 9) {
