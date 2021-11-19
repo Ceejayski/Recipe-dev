@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Correctly 1`] = `
+Array [
+  <h3
+    className="mt-5 text-center"
+  >
+    Recipes of the Day
+  </h3>,
+  <div
+    className="row"
+  />,
+]
+`;
