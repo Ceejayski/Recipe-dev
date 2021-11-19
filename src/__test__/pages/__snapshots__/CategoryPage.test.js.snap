@@ -63,9 +63,6 @@ exports[`renders Correctly 1`] = `
         className="items mt-3"
       />
     </div>
-    <div
-      className="mt-4 row"
-    />
   </div>
 </div>
 `;
