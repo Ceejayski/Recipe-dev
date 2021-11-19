@@ -18,7 +18,9 @@ export default function Carousel() {
     <Swiper
       pagination
       navigation
-      autoplay
+      autoplay={{
+        delay: 10000,
+      }}
       className="mySwiper"
     >
       <SwiperSlide>
