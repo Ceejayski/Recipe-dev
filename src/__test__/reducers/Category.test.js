@@ -1,4 +1,4 @@
-import CategoriesReducer from '../../redux/API/Reducers/Categories';
+import { CategoriesReducer } from '../../redux/API/Reducers/Categories';
 
 const initialState = {
   pending: false,
