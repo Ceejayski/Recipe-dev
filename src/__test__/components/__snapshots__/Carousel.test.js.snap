@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Correctly 1`] = `
+exports[`Carousel should render correctly 1`] = `
 <div
   className="swiper-container mySwiper"
 >

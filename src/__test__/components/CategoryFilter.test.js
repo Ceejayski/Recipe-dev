@@ -13,7 +13,7 @@ const setup1 = () => {
   return component;
 };
 
-describe('Header component', () => {
+describe('Select component', () => {
   let component;
   let component2;
   beforeEach(() => {
