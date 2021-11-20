@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import { create } from 'react-test-renderer';
-import CategoryRecipe from '../../components/categoryRecipes';
+import CategoryRecipe from '../../containers/categoryRecipes';
 import store from '../../redux';
 
 test('renders Correctly', () => {

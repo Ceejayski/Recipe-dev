@@ -1,5 +1,5 @@
 import React from 'react';
-import CategoryRecipe from '../components/categoryRecipes';
+import CategoryRecipe from '../containers/categoryRecipes';
 
 export default function CategoryPage() {
   const options = ['Pork', 'Chicken', 'Lamb', 'Side', 'Miscellaneous', 'Goat'];

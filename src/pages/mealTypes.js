@@ -1,5 +1,5 @@
 import React from 'react';
-import CategoryRecipe from '../components/categoryRecipes';
+import CategoryRecipe from '../containers/categoryRecipes';
 
 export default function MealTypes() {
   const options = ['Dessert', 'Starter', 'Breakfast'];

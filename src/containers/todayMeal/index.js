@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import getRandomMeals from '../../redux/API/Actions/getRandomMeals';
-import MealDetails from '../MealDetails';
+import MealDetails from '../../components/MealDetails';
 
 function TodayMeals(props) {
   const { randomMeal, products } = props;

@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Container } from 'react-bootstrap';
-import CategoryFilter from '../categoryFilter';
+import CategoryFilter from '../../components/categoryFilter';
 import getAllMealsinCat from '../../redux/API/Actions/allMeals';
 import { UPDATE_CATEGORY } from '../../redux/API/Actions';
-import MealDetails from '../MealDetails';
+import MealDetails from '../../components/MealDetails';
 
 function CategoryRecipe({
   options, list, dispatch, filter, current, loading,
