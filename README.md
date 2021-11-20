@@ -1,5 +1,5 @@
 # CAPSTONE PROJECT: RecipeDev
-This is a goto Recipe Site in react
+This is a Recipe Catalogue site in react with browsable, searchable categories and recipes respectively. 
  
  ## Live Demo:
 [Recipe-Dev](https://pedantic-pasteur-a8bcbb.netlify.app/)
