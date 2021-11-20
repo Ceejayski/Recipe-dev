@@ -10,7 +10,7 @@ This is a goto Recipe Site in react
     <img src="img/screenshot2.png" alt="List of attendees in event show page">
 </p>
 ## Video presentation
-[video](https://www.loom.com/share/d7cc9642eef24da0a7b6f68e5ff2fcee)
+[video](https://www.loom.com/share/3f031247b9a8483b924ce66d24a077c4)
 
 ## Built-With
 
