@@ -4,7 +4,7 @@ import {
 } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
-import SearchBar from '../searchBar';
+import SearchBar from '../../containers/searchBar';
 
 export default function NavBar() {
   const [scroll, setScroll] = useState(false);

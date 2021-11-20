@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import AsyncSelect from 'react-select/async';
 import { components } from 'react-select';
-import IconOption from '../iconOption';
+import IconOption from '../../components/iconOption';
 import getQueryResults from '../../redux/API/Actions/searchMeal';
 
 const SearchIcon = () => <i className="fas fa-search" />;
