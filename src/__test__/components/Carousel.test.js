@@ -11,8 +11,8 @@ describe('Carousel', () => {
   const tree = create(<Placeholder />).toJSON();
   it('should render correctly', () => {
     expect(tree).toMatchSnapshot();
-  })
+  });
   it('tree should not be empty', () => {
-    expect(tree).not.toBe('')
-  })
+    expect(tree).not.toBe('');
+  });
 });
