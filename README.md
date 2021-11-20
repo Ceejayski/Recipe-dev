@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# CAPSTONE PROJECT: RecipeDev
+This is a Recipe Catalogue site in react with browsable, searchable categories and recipes respectively. 
+ 
+ ## Live Demo:
+[Recipe-Dev](https://pedantic-pasteur-a8bcbb.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshot
+<p float = 'left'>
+    <img src="img/screenshot.png" alt="Private events home page">
+    <img src="img/screenshot2.png" alt="List of attendees in event show page">
+</p>
+## Video presentation
+[video](https://www.loom.com/share/3f031247b9a8483b924ce66d24a077c4)
 
-## Available Scripts
+## Built-With
 
-In the project directory, you can run:
 
-### `yarn start`
+- React
+- Redux
+- TheMealDB Api
+- Jest
+- Css3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**To get this project set up on your local machine, follow these simple steps:**
 
-### `yarn test`
+1. Clone this project: git clone https://github.com/Ceejayski/Recipe-dev.git
+2. Cd into the cloned directory
+3. Install the required dependencies by using: `npm install`
+4. run `npm run start` to display the project on the browser
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**And to run the test on your local machine, follow these simple steps:**
+1. Install jest using `npm install --save-dev jest` if it's not already in the package.json. 
+2. run `npm test` 
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author Details:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 **Okoli Chijioke**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Github: [@ceejayski](https://github.com/ceejayski)
 
-### `yarn eject`
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okoli-ceejay/)
+## Show your support
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Kindly ⭐ Star this project on GitHub — it helps!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- My thanks goes to Microverse and all our peers and colleagues there.

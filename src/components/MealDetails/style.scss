@@ -1,0 +1,21 @@
+.card-title {
+  font-size: 0.9em !important;
+  font-weight: bolder;
+}
+
+.card-title,
+.list-title {
+  font-family: "Merienda", cursive;
+}
+
+.list-title {
+  font-size: 0.7em !important;
+}
+
+.meal-details {
+  transition: all 0.2s ease-in-out;
+}
+
+.meal-details:hover {
+  transform: scale(1.1);
+}

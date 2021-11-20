@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Correctly 1`] = `
+<div
+  className="footer-basic d-flex justify-content-center text-center bg-white mt-5"
+>
+  <footer>
+    <div
+      className="social-links mb-2"
+    >
+      <a
+        className="links-social"
+        href="/"
+      >
+        <i
+          aria-label="Social"
+          className="fab fa-instagram mt-2"
+        />
+      </a>
+      <a
+        className="links-social"
+        href="/"
+      >
+        <i
+          aria-label="Social"
+          className="fab fa-snapchat-square  mt-2"
+        />
+      </a>
+      <a
+        className="links-social"
+        href="/"
+      >
+        <i
+          aria-label="Social"
+          className="fab fa-twitter  mt-2"
+        />
+      </a>
+    </div>
+    <ul
+      className="list-inline"
+    >
+      <li
+        className="list-inline-item"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="list-inline-item"
+      >
+        <a
+          href="/"
+        >
+          Services
+        </a>
+      </li>
+      <li
+        className="list-inline-item"
+      >
+        <a
+          href="/"
+        >
+          About
+        </a>
+      </li>
+      <li
+        className="list-inline-item"
+      >
+        <a
+          href="/"
+        >
+          Terms
+        </a>
+      </li>
+      <li
+        className="list-inline-item"
+      >
+        <a
+          href="/"
+        >
+          Privacy Policy
+        </a>
+      </li>
+    </ul>
+    <p
+      className="copyright last-line"
+    >
+      RecipeDev Made With Love by
+       
+      <a
+        className="text-primary"
+        href="http://github.com/ceejayski"
+      >
+        Ceejayski 
+      </a>
+       
+      © 2021
+    </p>
+  </footer>
+</div>
+`;

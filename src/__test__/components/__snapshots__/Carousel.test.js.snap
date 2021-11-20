@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel should render correctly 1`] = `
+<div
+  className="swiper-container mySwiper"
+>
+  <div
+    className="swiper-button-prev"
+  />
+  <div
+    className="swiper-button-next"
+  />
+  <div
+    className="swiper-pagination"
+  />
+  <div
+    className="swiper-wrapper"
+  >
+    <div
+      className="swiper-slide"
+    >
+      <img
+        alt="slide1"
+        src="slide1.jpg"
+      />
+      <div
+        className="position-absolute slide-text"
+      >
+        <h1>
+          RecipeDev
+        </h1>
+        <p>
+          by a Dev turned Cook
+        </p>
+      </div>
+    </div>
+    <div
+      className="swiper-slide"
+    >
+      <img
+        alt="slide2"
+        src="burger.jpg"
+      />
+      <div
+        className="position-absolute slide-text"
+      >
+        <h1>
+          Fast Food Recipes
+        </h1>
+        <p
+          className="text-white"
+        >
+          like you have never had before
+        </p>
+      </div>
+    </div>
+    <div
+      className="swiper-slide"
+    >
+      <img
+        alt="slide3"
+        src="dessert.jpg"
+      />
+      <div
+        className="position-absolute slide-text"
+      >
+        <h1>
+          Dessert Recipes
+        </h1>
+        <p
+          className="text-white"
+        >
+          Sweettooth?... We have got you 
+        </p>
+      </div>
+    </div>
+    <div
+      className="swiper-slide"
+    >
+      <img
+        alt="slide4"
+        src="pizza.jpg"
+      />
+      <div
+        className="position-absolute slide-text"
+      >
+        <h1>
+          Pizza Recipes
+        </h1>
+        <p
+          className="text-white"
+        >
+          We Leave in a world were pizza gets home before the police do
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Correctly 1`] = `
+<div
+  className="meal-details"
+>
+  <a
+    href="/recipe/1"
+    onClick={[Function]}
+  >
+    <div
+      className="rounded card bg-white"
+    >
+      <img
+        className="card-img-top"
+        src="img"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          name
+        </div>
+      </div>
+      <div
+        className="list-group list-group-flush"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="list-group-item"
+          data-rr-ui-event-key={null}
+          onClick={[Function]}
+        >
+          <div
+            className="details d-flex justify-content-between"
+          >
+            <p
+              className="mb-0 list-title"
+            >
+              Tags
+            </p>
+            <p
+              className="mb-0"
+              style={
+                Object {
+                  "maxWidth": "70%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
