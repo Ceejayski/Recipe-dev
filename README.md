@@ -1,4 +1,4 @@
-# CAPSTONE PROJECT: RecipeDev
+# RecipeDev
 This is a Recipe Catalogue site in react with browsable, searchable categories and recipes respectively. 
  
  ## Live Demo:
